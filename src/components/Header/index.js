@@ -55,7 +55,7 @@ const Header = () => {
         return (
             <Box>
                 <Box sx={{backgroundColor: '#fff', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.25)', padding: '16px 0'}}>
-                    <Container>
+                    <Container sx={{display: 'flex', justifyContent: 'space-between'}}>
                         <Box component='a' sx={{display: 'flex', alignItems: 'center', '&:hover':{cursor: 'pointer'}}} onClick={() => navigate('/')}>
                             <img src={logo} width='30px' alt="logo" />
                             <Typography color='primary' sx={{fontFamily: 'RozhaOne', fontSize: 32, ml: 1}}>BookShop</Typography>
